@@ -142,7 +142,7 @@ function customFormValidation(formId,btnId){
 				maxlength:10
 			},				
 			requiredCheckboxGroup:{				
-				  require_from_group:  function(element) {
+				  require_form_group:  function(element) {
 					  var newGroupClass = $(element).attr("v-groupname");
 					  $(element).addClass(newGroupClass);						  
 					  return [1, "."+newGroupClass]
@@ -184,7 +184,7 @@ function customFormValidation(formId,btnId){
 			maxlength : function(param,element){
 				return "Maximum " + param + " digits"
 			},
-			require_from_group : function(param,element){
+			require_form_group : function(param,element){
 				return "You must select at least one" 
 			}				
 		};
