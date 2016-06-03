@@ -1,7 +1,7 @@
 # custom Validation 
 Required pluggin *jqury,jquery.vlidate, icheck.js
 
-## Update required in customJsValidation.js
+## CustomJsValidation.js
 1. **Initialise customValidation**
   * customFormValidation("evregform","subscribe2")
   * where  FormId = evregform and  submitbuttonId = subscribe2
@@ -15,3 +15,8 @@ Required pluggin *jqury,jquery.vlidate, icheck.js
   * requiredMobile (10 digits)
   * requiredCheckboxGroup (check box group validation)
   * dependatnOtherField (dependant field)
+  
+3. **Validation message **
+  * v-data = "required field message"
+  * v-groupname = "gourp require message"
+  * 
