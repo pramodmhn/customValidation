@@ -16,6 +16,6 @@ Required pluggin *jqury,jquery.vlidate, icheck.js
   * requiredCheckboxGroup (check box group validation)
   * dependatnOtherField (dependant field)
   
-3. **Validation message **
+3. **Validation message**
   * v-data = "required field message"
   * v-groupname = "gourp require message"
