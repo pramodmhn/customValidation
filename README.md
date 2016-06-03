@@ -5,7 +5,6 @@ Required pluggin *jqury,jquery.vlidate, icheck.js
 ##### Initialise customValidation
 * customFormValidation("evregform","subscribe2")
 * where  FormId = evregform and  submitbuttonId = subscribe2
-*
 ##### Classes
 * requiredField (field is required)
 * requiredEmail (field required with valid email)
