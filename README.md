@@ -19,4 +19,3 @@ Required pluggin *jqury,jquery.vlidate, icheck.js
 3. **Validation message **
   * v-data = "required field message"
   * v-groupname = "gourp require message"
-  * 
