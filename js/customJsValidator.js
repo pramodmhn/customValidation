@@ -7,8 +7,8 @@
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
 <script src="https://ajax.aspnetcdn.com/ajax/jquery.validate/1.14.0/jquery.validate.min.js"></script>
 <script src="https://ajax.aspnetcdn.com/ajax/jquery.validate/1.14.0/additional-methods.min.js"></script>
-<script type="text/javascript" src="icheck.js"></script> 
-<script src="customJsValidator.js"></script>
+<script type="text/javascript" src="https://www.swiftdigital.com.au/js/icheck.js"></script> 
+<script src="js/customJsValidator.js"></script>
  <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
     <!--[if lt IE 9]>
@@ -142,7 +142,7 @@ function customFormValidation(formId,btnId){
 				maxlength:10
 			},				
 			requiredCheckboxGroup:{				
-				  require_form_group:  function(element) {
+				  require_from_group:  function(element) {
 					  var newGroupClass = $(element).attr("v-groupname");
 					  $(element).addClass(newGroupClass);						  
 					  return [1, "."+newGroupClass]
@@ -184,7 +184,7 @@ function customFormValidation(formId,btnId){
 			maxlength : function(param,element){
 				return "Maximum " + param + " digits"
 			},
-			require_form_group : function(param,element){
+			require_from_group : function(param,element){
 				return "You must select at least one" 
 			}				
 		};
