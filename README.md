@@ -1,5 +1,7 @@
 # custom Validation 
 Required pluggin *jqury,jquery.vlidate, icheck.js
+**example:**
+*http://pramodmaharjan.com/customValidation/
 
 ## CustomJsValidation.js
 1. **Initialise customValidation**
