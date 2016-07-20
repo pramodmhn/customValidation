@@ -1,6 +1,6 @@
 # custom Validation 
 Required pluggin *jqury,jquery.vlidate, icheck.js
-**example:**
+*example:
 * http://pramodmaharjan.com/customValidation/
 
 ## CustomJsValidation.js
@@ -20,4 +20,4 @@ Required pluggin *jqury,jquery.vlidate, icheck.js
   
 3. **Validation message**
   * v-data = "required field message"
-  * v-groupname = "gourp require message"
+  * v-groupname = "group require message"
